@@ -8,8 +8,8 @@ public class alphabetReplacement{
 		//stringStream.reduce((s1, s2) -> s1 + " " + s2);
 		String Answer =  stringStream.map(name -> name.toLowerCase())
 				.map(name -> replaceLetter(name))
-				.filter(Optional::isPresent)
-				.map(Optional::get)
+				.filter(Optional::isPresent)	/*remove nulls*/
+				.map(Optional::get)	/*converts from <Optional <String>> to <String>*/
 				.collect(Collectors.joining(" "))
 				.toString();
 	//	System.out.println(Answer);

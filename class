@@ -1,0 +1,1 @@
+ReadMe.md alphabetReplacement contains the method replaceLetterWithPosition which takes a string input and returns a string. It will convert all the characters a-z with its position in the alphabet.

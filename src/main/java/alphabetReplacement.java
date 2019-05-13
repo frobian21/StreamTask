@@ -12,7 +12,7 @@ public class alphabetReplacement{
 				.map(Optional::get)
 				.collect(Collectors.joining(" "))
 				.toString();
-		System.out.println(Answer);
+	//	System.out.println(Answer);
 		return Answer;
 	}
 	
